@@ -1,0 +1,160 @@
+object SmCiklForm: TSmCiklForm
+  Left = 235
+  Top = 128
+  BorderIcons = []
+  BorderStyle = bsSingle
+  Caption = #1062#1080#1082#1083#1099' '#1087#1086#1076#1098#1077#1084#1086#1074
+  ClientHeight = 463
+  ClientWidth = 614
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  Position = poMainFormCenter
+  OnCreate = FormCreate
+  OnShow = FormShow
+  PixelsPerInch = 96
+  TextHeight = 13
+  object StringGrid: TStringGrid
+    Left = 0
+    Top = 0
+    Width = 614
+    Height = 353
+    Align = alTop
+    ColCount = 9
+    DefaultRowHeight = 15
+    FixedCols = 0
+    RowCount = 2
+    Options = [goFixedVertLine, goFixedHorzLine, goVertLine, goHorzLine, goDrawFocusSelected, goColSizing]
+    TabOrder = 0
+    ColWidths = (
+      32
+      81
+      82
+      80
+      64
+      64
+      64
+      64
+      64)
+  end
+  object GroupBox1: TGroupBox
+    Left = 0
+    Top = 360
+    Width = 337
+    Height = 81
+    Caption = ' '#1054#1090#1095#1077#1090#1099' '
+    TabOrder = 1
+    object RepButton1: TBitBtn
+      Left = 8
+      Top = 16
+      Width = 75
+      Height = 25
+      Caption = 'I'#1089#1090
+      TabOrder = 0
+      OnClick = RepButton1Click
+    end
+    object RepButton2: TBitBtn
+      Left = 88
+      Top = 16
+      Width = 75
+      Height = 25
+      Caption = 'I'#1076#1090
+      TabOrder = 1
+      OnClick = RepButton2Click
+    end
+    object RepButton3: TBitBtn
+      Left = 168
+      Top = 16
+      Width = 75
+      Height = 25
+      Caption = 'U'#1090#1075
+      TabOrder = 2
+      OnClick = RepButton3Click
+    end
+    object RepButton4: TBitBtn
+      Left = 248
+      Top = 16
+      Width = 75
+      Height = 25
+      Caption = 'U'#1090#1075'+'#1056#1050#1047
+      TabOrder = 3
+      OnClick = RepButton4Click
+    end
+    object RepButton5: TBitBtn
+      Left = 8
+      Top = 48
+      Width = 315
+      Height = 25
+      Caption = 'U'#1090#1075'+I'#1089#1090'+I'#1076#1090
+      TabOrder = 4
+      OnClick = RepButton5Click
+    end
+  end
+  object BitBtn5: TBitBtn
+    Left = 528
+    Top = 384
+    Width = 83
+    Height = 25
+    Cancel = True
+    Caption = #1047#1072#1082#1088#1099#1090#1100
+    ModalResult = 2
+    TabOrder = 2
+    OnClick = BitBtn5Click
+    NumGlyphs = 2
+  end
+  object LoadButon: TBitBtn
+    Left = 392
+    Top = 384
+    Width = 83
+    Height = 25
+    Caption = #1047#1072#1075#1088#1091#1079#1080#1090#1100
+    TabOrder = 3
+    OnClick = LoadButonClick
+    Glyph.Data = {
+      42030000424D42030000000000003600000028000000110000000F0000000100
+      1800000000000C03000000000000000000000000000000000000C8D0D4000000
+      0000000000000000000000000000000000000000000000000000000000000000
+      00000000C8D0D4C8D0D4C8D0D400C8D0D4C6C6C6848484848484848484848484
+      848484848484848484848484848484848484848484000000C8D0D4C8D0D4C8D0
+      D400C8D0D4FFFFFFC6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6
+      C6C6C6C6C6C6848484000000C8D0D4C8D0D4C8D0D400C8D0D4FFFFFFC6C6C6C6
+      C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6C6848484000000
+      C8D0D4C8D0D4C8D0D400C8D0D4FFFFFFC6C6C60000FF0000FFC6C6C6C6C6C6C6
+      C6C6C6C6C6C6C6C6C6C6C6C6C6C6848484000000C8D0D4C8D0D4C8D0D400C8D0
+      D4FFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFFF
+      FFFFC6C6C6C8D0D4C8D0D4C8D0D4C8D0D400C8D0D4C8D0D4C8D0D4C8D0D4C8D0
+      D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8
+      D0D4C8D0D400C8D0D4000000000000C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4C8D0
+      D4000000000000000000000000000000000000000000C8D0D400C8D0D4000000
+      000000C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4000000FFFFFF00FFFFFFFFFF00FF
+      FFFFFFFF00FFFFFFFFFF00000000C8D0D4000000000000C8D0D4C8D0D4000000
+      C8D0D4C8D0D400000000FFFFFFFFFF00FFFFFFFFFF00FFFFFFFFFF00FFFF0000
+      0000C8D0D4000000000000848484C8D0D4000000000000C8D0D4000000FFFFFF
+      00FFFFFFFFFF00FFFFFFFFFF00FFFFFFFFFF00000000C8D0D484848400000000
+      000000000000000000000000000000000000FFFFFFFFFF00FFFFFFFFFF00FFFF
+      FFFFFF00FFFF00000000C8D0D4C8D0D4C8D0D4C8D0D4C8D0D4000000000000C8
+      D0D400000000000000000000000000FFFFFFFFFF00FFFFFFFFFF00000000C8D0
+      D4C8D0D4C8D0D4C8D0D4C8D0D4000000C8D0D4C8D0D400000000FFFFFFFFFF00
+      FFFF000000000000000000000000C8D0D400C8D0D4C8D0D4C8D0D4C8D0D4C8D0
+      D4C8D0D4C8D0D4C8D0D4C8D0D4000000000000000000C8D0D4C8D0D4C8D0D4C8
+      D0D4C8D0D400}
+  end
+  object StatusBar1: TStatusBar
+    Left = 0
+    Top = 444
+    Width = 614
+    Height = 19
+    Panels = <
+      item
+        Width = 300
+      end
+      item
+        Width = 50
+      end>
+    SimplePanel = False
+  end
+end

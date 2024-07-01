@@ -1,0 +1,191 @@
+//---------------------------------------------------------------------------
+
+#ifndef koef_unitH
+#define koef_unitH
+//---------------------------------------------------------------------------
+#include <Classes.hpp>
+#include <Controls.hpp>
+#include <StdCtrls.hpp>
+#include <Forms.hpp>
+#include <ComCtrls.hpp>
+//---------------------------------------------------------------------------
+class TKoefForm : public TForm
+{
+__published:	// IDE-managed Components
+        TButton *OkButton;
+        TButton *NoButton;
+        TGroupBox *GroupBox2;
+        TLabel *Label9;
+        TEdit *Edit60;
+        TGroupBox *GroupBox3;
+        TLabel *Label10;
+        TEdit *LMAXEdit;
+        TPageControl *PageControl1;
+        TTabSheet *TabSheet1;
+        TTabSheet *TabSheet2;
+        TTabSheet *TabSheet3;
+        TTabSheet *TabSheet4;
+        TGroupBox *GroupBox5;
+        TLabel *Label13;
+        TLabel *Label14;
+        TLabel *Label15;
+        TLabel *Label16;
+        TLabel *Label17;
+        TLabel *Label18;
+        TLabel *Label19;
+        TLabel *Label20;
+        TEdit *Edit1;
+        TEdit *Edit2;
+        TEdit *Edit3;
+        TEdit *Edit4;
+        TEdit *Edit5;
+        TEdit *Edit6;
+        TEdit *Edit7;
+        TEdit *Edit8;
+        TGroupBox *GroupBox1;
+        TLabel *Label1;
+        TLabel *Label2;
+        TLabel *Label3;
+        TLabel *Label4;
+        TLabel *Label5;
+        TLabel *Label6;
+        TLabel *Label7;
+        TLabel *Label8;
+        TEdit *Edit9;
+        TEdit *Edit10;
+        TEdit *Edit11;
+        TEdit *Edit12;
+        TEdit *Edit13;
+        TEdit *Edit14;
+        TEdit *Edit15;
+        TEdit *Edit16;
+        TGroupBox *GroupBox7;
+        TLabel *Label23;
+        TLabel *Label24;
+        TLabel *Label25;
+        TLabel *Label26;
+        TLabel *Label27;
+        TLabel *Label28;
+        TLabel *Label29;
+        TLabel *Label30;
+        TEdit *Edit21;
+        TEdit *Edit22;
+        TEdit *Edit23;
+        TEdit *Edit24;
+        TEdit *Edit25;
+        TEdit *Edit26;
+        TEdit *Edit27;
+        TEdit *Edit28;
+        TGroupBox *GroupBox9;
+        TLabel *Label33;
+        TLabel *Label34;
+        TLabel *Label35;
+        TLabel *Label36;
+        TLabel *Label37;
+        TLabel *Label38;
+        TLabel *Label39;
+        TLabel *Label40;
+        TEdit *Edit31;
+        TEdit *Edit32;
+        TEdit *Edit33;
+        TEdit *Edit34;
+        TEdit *Edit35;
+        TEdit *Edit36;
+        TEdit *Edit37;
+        TEdit *Edit38;
+        TGroupBox *GroupBox10;
+        TLabel *Label41;
+        TLabel *Label42;
+        TEdit *Edit39;
+        TEdit *Edit40;
+        TEdit *Edit41;
+        TEdit *Edit42;
+        TLabel *Label43;
+        TLabel *Label44;
+        TLabel *Label45;
+        TEdit *Edit43;
+        TLabel *Label46;
+        TEdit *Edit44;
+        TLabel *Label47;
+        TEdit *Edit45;
+        TLabel *Label48;
+        TEdit *Edit46;
+        TLabel *Label49;
+        TEdit *Edit47;
+        TLabel *Label50;
+        TEdit *Edit48;
+        TLabel *Label51;
+        TEdit *Edit49;
+        TLabel *Label52;
+        TEdit *Edit50;
+        TLabel *Label53;
+        TEdit *Edit51;
+        TLabel *Label54;
+        TEdit *Edit52;
+        TLabel *Label55;
+        TEdit *Edit53;
+        TLabel *Label56;
+        TEdit *Edit54;
+        TLabel *Label57;
+        TEdit *Edit55;
+        TLabel *Label58;
+        TEdit *Edit56;
+        TLabel *Label59;
+        TEdit *Edit57;
+        TLabel *Label62;
+        TEdit *Edit61;
+        TLabel *Label63;
+        TEdit *Edit62;
+        TLabel *Label64;
+        TEdit *Edit63;
+        TLabel *Label65;
+        TEdit *Edit64;
+        TLabel *Label66;
+        TEdit *Edit65;
+        TLabel *Label67;
+        TEdit *Edit66;
+        TLabel *Label60;
+        TLabel *Label61;
+        TEdit *Edit58;
+        TEdit *Edit59;
+        TGroupBox *GroupBox8;
+        TLabel *Label31;
+        TLabel *Label32;
+        TLabel *Label68;
+        TLabel *Label69;
+        TEdit *Edit29;
+        TEdit *Edit30;
+        TEdit *Edit67;
+        TEdit *Edit68;
+        TGroupBox *GroupBox4;
+        TLabel *Label11;
+        TLabel *Label12;
+        TLabel *Label70;
+        TLabel *Label71;
+        TEdit *Edit17;
+        TEdit *Edit20;
+        TEdit *Edit69;
+        TEdit *Edit70;
+        TGroupBox *GroupBox6;
+        TLabel *Label21;
+        TLabel *Label22;
+        TLabel *Label72;
+        TLabel *Label73;
+        TEdit *Edit18;
+        TEdit *Edit19;
+        TEdit *Edit71;
+        TEdit *Edit72;
+        TGroupBox *GroupBox11;
+        TLabel *Label75;
+        TEdit *Edit74;
+        void __fastcall NoButtonClick(TObject *Sender);
+        void __fastcall OkButtonClick(TObject *Sender);
+        void __fastcall FormShow(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+        __fastcall TKoefForm(TComponent* Owner);
+};
+//---------------------------------------------------------------------------
+extern PACKAGE TKoefForm *KoefForm;
+//---------------------------------------------------------------------------
+#endif
